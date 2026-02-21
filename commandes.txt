@@ -1,0 +1,5 @@
+référence : https://github.com/andfanilo/lyon2-nosql
+
+conda activate nosql
+jupyter lab
+docker run -it --rm --name some-orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=root orientdb:2.2
